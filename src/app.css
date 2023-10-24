@@ -1,0 +1,135 @@
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-image: url('assets/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+}
+
+
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+button {
+  border-radius: 8px;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  background-color: #0074d9;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  font-size: 18px;
+  margin-top: 20px;
+}
+button:hover {
+  border-color: #646cff;
+  background-color: #0056b3;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+h1 {
+  font-size: 44px;
+  margin: 20px 0;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#myDiv {
+  margin: 0 auto 4rem;
+  border: 1px solid #ccc;
+  padding: 1.5rem 1.5rem 2rem;
+  background-color: white;
+  box-shadow: 0 25px 50px -12px #00000040;
+  border-radius: 4px; 
+  scroll-margin: 15vh;
+  width: min(620px,100%);
+  position: relative;
+}
+
+h2 {
+  font-size: 28px;
+  margin: 10px 0;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 5px;
+}
+
+label {
+  margin-left: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+
+input[type="range"] {
+  width: 100%;
+}
+
+select {
+  width: 100%;
+  padding: 5px;
+  margin: 5px 0;
+}
+
+ul#resultList {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul#resultList li {
+  margin-bottom: 10px;
+  margin: 0 auto 1rem;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #f5f5f5;
+  width: min(220px,100%);
+  position: relative;
+  border-radius: 4px; 
+}
+
+#infoBox {
+  display: none;
+  border: 1px solid #ccc;
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: left;
+}
+
+#infoBox.active {
+  display: block;
+}
+
+#infoBox ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  padding-left: 10px;
+}
+
+#infoBox li {
+  margin: 10px 0;
+}
+
+
+
+
+
+
+
